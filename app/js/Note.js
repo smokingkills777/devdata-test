@@ -7,7 +7,7 @@ class Note {
     }
 
     addNote() {
-        noteDB.push( {id : noteDB.length + 1, subject : this.subject, text : this.text, date: this.date} );
+        noteDB.push( {id : noteDB.length, subject : this.subject, text : this.text, date: this.date} );
     }
 
     render() {

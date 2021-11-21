@@ -92,6 +92,7 @@ function showNoteInfo() {
                         updateNotes();
                     }
                 });
+                console.log(currentNoteID);
                 console.log(noteDB);
                 closeModal();
             })
